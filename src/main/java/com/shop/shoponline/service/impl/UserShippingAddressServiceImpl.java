@@ -1,9 +1,9 @@
 package com.shop.shoponline.service.impl;
 
-import com.shop.shoponline.entity.UserShippingAddress;
-import com.shop.shoponline.mapper.UserShippingAddressMapper;
-import com.shop.shoponline.service.UserShippingAddressService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.example.shop.entity.UserShippingAddress;
+import com.example.shop.mapper.UserShippingAddressMapper;
+import com.example.shop.service.UserShippingAddressService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -11,8 +11,8 @@ import org.springframework.stereotype.Service;
  *  服务实现类
  * </p>
  *
- * @author caozhi
- * @since 2023-11-08
+ * @author cjn
+ * @since 2023-11-09
  */
 @Service
 public class UserShippingAddressServiceImpl extends ServiceImpl<UserShippingAddressMapper, UserShippingAddress> implements UserShippingAddressService {

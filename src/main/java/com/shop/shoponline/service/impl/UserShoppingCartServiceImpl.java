@@ -1,9 +1,9 @@
 package com.shop.shoponline.service.impl;
 
-import com.shop.shoponline.entity.UserShoppingCart;
-import com.shop.shoponline.mapper.UserShoppingCartMapper;
-import com.shop.shoponline.service.UserShoppingCartService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.example.shop.entity.UserShoppingCart;
+import com.example.shop.mapper.UserShoppingCartMapper;
+import com.example.shop.service.UserShoppingCartService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -11,8 +11,8 @@ import org.springframework.stereotype.Service;
  *  服务实现类
  * </p>
  *
- * @author caozhi
- * @since 2023-11-08
+ * @author cjn
+ * @since 2023-11-09
  */
 @Service
 public class UserShoppingCartServiceImpl extends ServiceImpl<UserShoppingCartMapper, UserShoppingCart> implements UserShoppingCartService {

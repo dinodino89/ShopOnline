@@ -9,6 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.shop</groupId>
+
     <artifactId>ShopOnline</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ShopOnline</name>
@@ -91,13 +92,13 @@
         </dependency>
 
         <!--实体映射/绑定相关依赖 -->
-                <dependency>
-                    <groupId>org.projectlombok</groupId>
-                    <artifactId>lombok</artifactId>
-                    <optional>true</optional>
-                </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
 
-                <!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct -->
+        <!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct -->
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
@@ -150,16 +151,6 @@
             <scope>test</scope>
         </dependency>
 
-<!--&lt;!&ndash;        lombok是一个可以通过简单的注解的形式来帮助我们简化消除一些必须有但显得很臃肿的 Java 代码的工具，-->
-<!--简单来说，比如我们新建了一个类，然后在其中写了几个字段，然后通常情况下我们需要手动去建立getter和setter方法啊，-->
-<!--构造函数啊之类的，lombok的作用就是为了省去我们手动创建这些代码的麻烦，-->
-<!--它能够在我们编译源码的时候自动帮我们生成这些方法。&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>org.projectlombok</groupId>-->
-<!--            <artifactId>lombok</artifactId>-->
-<!--            <version>1.16.10</version>-->
-<!--            &lt;!&ndash;            <optional>true</optional>&ndash;&gt;-->
-<!--        </dependency>-->
 
     </dependencies>
 

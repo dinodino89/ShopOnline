@@ -1,9 +1,9 @@
 package com.shop.shoponline.service.impl;
 
-import com.shop.shoponline.entity.GoodsSpecification;
-import com.shop.shoponline.mapper.GoodsSpecificationMapper;
-import com.shop.shoponline.service.GoodsSpecificationService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.example.shop.entity.GoodsSpecification;
+import com.example.shop.mapper.GoodsSpecificationMapper;
+import com.example.shop.service.GoodsSpecificationService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -11,8 +11,8 @@ import org.springframework.stereotype.Service;
  *  服务实现类
  * </p>
  *
- * @author caozhi
- * @since 2023-11-08
+ * @author cjn
+ * @since 2023-11-09
  */
 @Service
 public class GoodsSpecificationServiceImpl extends ServiceImpl<GoodsSpecificationMapper, GoodsSpecification> implements GoodsSpecificationService {

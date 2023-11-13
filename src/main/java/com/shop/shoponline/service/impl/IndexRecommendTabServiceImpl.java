@@ -1,9 +1,9 @@
 package com.shop.shoponline.service.impl;
 
-import com.shop.shoponline.entity.IndexRecommendTab;
-import com.shop.shoponline.mapper.IndexRecommendTabMapper;
-import com.shop.shoponline.service.IndexRecommendTabService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.example.shop.entity.IndexRecommendTab;
+import com.example.shop.mapper.IndexRecommendTabMapper;
+import com.example.shop.service.IndexRecommendTabService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -11,8 +11,8 @@ import org.springframework.stereotype.Service;
  *  服务实现类
  * </p>
  *
- * @author caozhi
- * @since 2023-11-08
+ * @author cjn
+ * @since 2023-11-09
  */
 @Service
 public class IndexRecommendTabServiceImpl extends ServiceImpl<IndexRecommendTabMapper, IndexRecommendTab> implements IndexRecommendTabService {
