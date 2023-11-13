@@ -2,16 +2,16 @@ package com.shop.shoponline.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.shop.VO.CategoryChildrenGoodsVO;
-import com.example.shop.VO.CategoryVO;
-import com.example.shop.VO.RecommendGoodsVO;
-import com.example.shop.convert.GoodsConvert;
-import com.example.shop.entity.Category;
-import com.example.shop.entity.Goods;
-import com.example.shop.enums.CategoryRecommendEnum;
-import com.example.shop.mapper.CategoryMapper;
-import com.example.shop.mapper.GoodsMapper;
-import com.example.shop.service.CategoryService;
+import com.shop.shoponline.vo.CategoryChildrenGoodsVO;
+import com.shop.shoponline.vo.CategoryVO;
+import com.shop.shoponline.vo.RecommendGoodsVO;
+import com.shop.shoponline.convert.GoodsConvert;
+import com.shop.shoponline.entity.Category;
+import com.shop.shoponline.entity.Goods;
+import com.shop.shoponline.enums.CategoryRecommendEnum;
+import com.shop.shoponline.mapper.CategoryMapper;
+import com.shop.shoponline.mapper.GoodsMapper;
+import com.shop.shoponline.service.CategoryService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -23,7 +23,7 @@ import java.util.List;
  *  服务实现类
  * </p>
  *
- * @author cjn
+ * @author lyc
  * @since 2023-11-09
  */
 @Service

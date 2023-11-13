@@ -1,7 +1,7 @@
 package com.shop.shoponline.service.impl;
 
 
-import com.example.shop.service.RedisService;
+import com.shop.shoponline.service.RedisService;
 import lombok.AllArgsConstructor;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @description: RedisService实现类
- * @author: mqxu
+ * @author: lyc
  * @create: 2020-12-05 20:33
  **/
 @Service

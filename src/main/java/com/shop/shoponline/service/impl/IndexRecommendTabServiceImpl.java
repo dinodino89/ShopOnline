@@ -1,9 +1,9 @@
 package com.shop.shoponline.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.shop.entity.IndexRecommendTab;
-import com.example.shop.mapper.IndexRecommendTabMapper;
-import com.example.shop.service.IndexRecommendTabService;
+import com.shop.shoponline.entity.IndexRecommendTab;
+import com.shop.shoponline.mapper.IndexRecommendTabMapper;
+import com.shop.shoponline.service.IndexRecommendTabService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  *  服务实现类
  * </p>
  *
- * @author cjn
+ * @author lyc
  * @since 2023-11-09
  */
 @Service

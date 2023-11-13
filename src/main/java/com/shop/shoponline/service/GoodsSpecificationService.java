@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  *  服务类
  * </p>
  *
- * @author caozhi
+ * @author lyc
  * @since 2023-11-08
  */
 public interface GoodsSpecificationService extends IService<GoodsSpecification> {

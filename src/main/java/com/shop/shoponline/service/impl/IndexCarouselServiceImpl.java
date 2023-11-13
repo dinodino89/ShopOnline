@@ -2,9 +2,9 @@ package com.shop.shoponline.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.shop.entity.IndexCarousel;
-import com.example.shop.mapper.IndexCarouselMapper;
-import com.example.shop.service.IndexCarouselService;
+import com.shop.shoponline.entity.IndexCarousel;
+import com.shop.shoponline.mapper.IndexCarouselMapper;
+import com.shop.shoponline.service.IndexCarouselService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -14,7 +14,7 @@ import java.util.List;
  *  服务实现类
  * </p>
  *
- * @author cjn
+ * @author lyc
  * @since 2023-11-09
  */
 @Service

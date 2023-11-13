@@ -6,20 +6,20 @@ import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.shop.VO.LoginResultVO;
-import com.example.shop.VO.UserTokenVO;
-import com.example.shop.VO.UserVO;
-import com.example.shop.common.exception.ServerException;
-import com.example.shop.common.utils.AliyunResource;
-import com.example.shop.common.utils.FileResource;
-import com.example.shop.common.utils.GeneratorCodeUtils;
-import com.example.shop.common.utils.JWTUtils;
-import com.example.shop.convert.UserConvert;
-import com.example.shop.entity.User;
-import com.example.shop.mapper.UserMapper;
-import com.example.shop.query.UserLoginQuery;
-import com.example.shop.service.RedisService;
-import com.example.shop.service.UserService;
+import com.shop.shoponline.vo.LoginResultVO;
+import com.shop.shoponline.vo.UserTokenVO;
+import com.shop.shoponline.vo.UserVO;
+import com.shop.shoponline.common.exception.ServerException;
+import com.shop.shoponline.common.utils.AliyunResource;
+import com.shop.shoponline.common.utils.FileResource;
+import com.shop.shoponline.common.utils.GeneratorCodeUtils;
+import com.shop.shoponline.common.utils.JWTUtils;
+import com.shop.shoponline.convert.UserConvert;
+import com.shop.shoponline.entity.User;
+import com.shop.shoponline.mapper.UserMapper;
+import com.shop.shoponline.query.UserLoginQuery;
+import com.shop.shoponline.service.RedisService;
+import com.shop.shoponline.service.UserService;
 import lombok.AllArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
@@ -30,14 +30,14 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.UUID;
 
-import static com.example.shop.common.constant.APIConstant.*;
+import static com.shop.shoponline.common.constant.APIConstant.*;
 
 /**
  * <p>
  *  服务实现类
  * </p>
  *
- * @author cjn
+ * @author lyc
  * @since 2023-11-09
  */
 @Service
