@@ -7,6 +7,8 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.time.LocalDateTime;
+
+import com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
@@ -22,7 +24,7 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-@TableName("t_goods_specification_detail")
+@TableName(value = "t_goods_specification",autoResultMap = true)
 @ApiModel(value = "GoodsSpecificationDetail对象", description = "")
 public class GoodsSpecificationDetail {
 
@@ -51,7 +53,7 @@ public class GoodsSpecificationDetail {
     private Double oldPrice;
 
     @ApiModelProperty("规格详情")
-    @TableField("specs")
+    @TableField(value = "specs",typeHandler = JacksonTypeHandler.class)
     private String specs;
 
     @ApiModelProperty("逻辑删除(0-未删除，1-已删除)")

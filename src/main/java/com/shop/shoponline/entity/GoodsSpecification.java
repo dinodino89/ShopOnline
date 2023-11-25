@@ -1,5 +1,6 @@
 package com.shop.shoponline.entity;
 
+import com.alibaba.fastjson2.JSONObject;
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
@@ -7,6 +8,9 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.time.LocalDateTime;
+import java.util.List;
+
+import com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
@@ -37,6 +41,10 @@ public class GoodsSpecification {
     @ApiModelProperty("规格名称")
     @TableField("name")
     private String name;
+
+    @ApiModelProperty("规格名称")
+    @TableField(value = "value",typeHandler = JacksonTypeHandler.class)
+    private List<JSONObject> value;
 
     @ApiModelProperty("属性详情")
     @TableField("value")

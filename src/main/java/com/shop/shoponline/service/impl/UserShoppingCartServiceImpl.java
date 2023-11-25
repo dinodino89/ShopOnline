@@ -6,6 +6,8 @@ import com.shop.shoponline.mapper.UserShoppingCartMapper;
 import com.shop.shoponline.service.UserShoppingCartService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * <p>
  *  服务实现类
