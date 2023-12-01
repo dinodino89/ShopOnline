@@ -21,7 +21,7 @@ import static com.shop.shoponline.common.utils.ObtainUserIdUtils.getUserId;
  *  前端控制器
  * </p>
  *
- * @author zhangzhiyuan
+ * @author lyc
  * @since 2023-11-08
  */
 @Tag(name = "用户模块")

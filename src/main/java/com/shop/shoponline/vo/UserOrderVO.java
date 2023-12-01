@@ -1,7 +1,10 @@
 package com.shop.shoponline.vo;
 
+import com.shop.shoponline.query.OrderGoodsQuery;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotNull;
+
+import java.util.List;
 
 public class UserOrderVO {
     @Schema(description = "商品集合")

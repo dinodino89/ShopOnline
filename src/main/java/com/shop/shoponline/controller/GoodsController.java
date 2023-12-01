@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
  *  前端控制器
  * </p>
  *
- * @author zhangzhiyuan
+ * @author lyc
  * @since 2023-11-08
  */
 @Tag(name = "商品模块")
@@ -47,6 +47,5 @@ public class GoodsController {
         GoodsVO goodsDetail = goodsService.getGoodsDetail(id);
         return Result.ok(goodsDetail);
     }
-
 }
 
